@@ -1,0 +1,6 @@
+[submodule "includes/type_finder"]
+	path = includes/type_finder
+	url = https://github.com/leico/type_finder.git
+[submodule "includes/bool_checker"]
+	path = includes/bool_checker
+	url = https://github.com/leico/bool_checker.git
