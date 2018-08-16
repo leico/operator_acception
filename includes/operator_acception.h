@@ -89,7 +89,7 @@ namespace operator_acception {
     // specialization entry point for bit operation enablling
     template < typename T, typename U = T > 
     struct accepter { 
-      using flagger = flagger<>;
+      using flagger = bit :: flagger<>;
     };
 
     //get <T, U> specialized or flag
@@ -146,7 +146,7 @@ namespace operator_acception {
     //specialization entry point for logical operation enablling
     template < typename T, typename U = T > 
     struct accepter { 
-      using flagger = flagger<>;
+      using flagger = logical :: flagger<>;
     };
 
     //get < T, U > specialized or flag
@@ -188,7 +188,7 @@ namespace operator_acception {
     // specialization entry point for arithmetic operation enabling
     template < typename T, typename U = T > 
     struct accepter { 
-      using flagger = flagger<>;
+      using flagger = arithmetic :: flagger<>;
     };
 
     //get < T, U > specialized plus flag
